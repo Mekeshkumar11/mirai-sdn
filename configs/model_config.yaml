@@ -1,6 +1,6 @@
 model:
   framework: tensorflow
-  path: "model/model.h5"
+  path: "model/best_attention_cnn.h5"
   input_dim: 48
   threshold: 0.7     # adjust based on validation results
   classes:
