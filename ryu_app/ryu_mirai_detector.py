@@ -9,7 +9,7 @@ import os
 import logging
 import numpy as np
 
-from . import feature_extractor, preprocessing, tf_model, prevention
+from ryu_app import feature_extractor, preprocessing, tf_model, prevention
 import yaml
 
 BASE_DIR = os.path.abspath(os.path.join(os.path.dirname(__file__), '..'))
